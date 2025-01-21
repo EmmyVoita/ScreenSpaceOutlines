@@ -15,7 +15,7 @@ NMS is applied as an optional step after calculating edge detection, which can b
 
 Here is an example of the artifact when there is no NMS applied (left), and the issue resolved with NMS applied (right). My NMS implementation is not perfect. It can decrease the sharpness of outlines, which is also clear in the following image. I plan on reworking this at some point in the future when I have better knowledge of how to solve the problem. I will also add support for multiple outline layers with different colors, and different edge detection techniques eventually.  
 
-![NMS_1](https://github.com/user-attachments/assets/09fd89b1-6e21-420b-8960-80e9d45cd1cd)
+![outlines_nms_example](https://github.com/user-attachments/assets/d45af09b-ce84-496b-96f6-43837e071c89)
 
 **Temporal Anti-Aliasing** 
 
